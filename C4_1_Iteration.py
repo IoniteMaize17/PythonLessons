@@ -1,3 +1,5 @@
+
+'''
 x = int(input("Find sum of numbers from 1 to: "))
 y = 1
 sum = 0
@@ -7,6 +9,7 @@ if y <= x:
     print(sum)
 
 # Reccursion in python 
+
 def recursive_method(n):
     if n == 1:
         return 1 
@@ -19,3 +22,14 @@ def recursive_method(n):
     # 5 * 4 * 3 * 2 * 1 = 120
 num = int(input('enter num '))
 print(recursive_method(num))
+'''
+
+x = 1
+sum = 0
+while x <= 10:
+    sum = sum + x
+    x = x + 1
+
+print(sum)
+
+#round is the name of a function, do not use it to calculate iteration "rounds"
