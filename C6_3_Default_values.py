@@ -26,7 +26,7 @@ def square(width=float(5.0), height=float(8.0)):
     return area
 
 
-def main():
+'''def main():
     # we can leave some parameters out
     # because now we have default values
     area1 = square()
@@ -36,8 +36,8 @@ def main():
 
     print("Four different ways of calling our function...")
     print("And they all work:")
-    print(area1, area2, area3, area4)
+    print(area1, area2, area3, area4)'''
 
 
-if __name__ == "__main__":
-    main()
+'''if __name__ == "__main__":
+    main()'''
